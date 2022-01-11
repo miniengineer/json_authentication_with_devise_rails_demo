@@ -14,13 +14,21 @@
 
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
-I wrote an article which describes the process of setting up JSON API authentication for Rails application with [devise gem](https://github.com/heartcombo/devise).
+<p> Not a while ago, I started a side project to improve my engineering skills.
+I decided to make a web application with Rails + React stack. When it came to the authentication implementation, I went with the devise gem. </p>
 
-<p>Devise is a powerful and customizable authentication library used for Rails application. It comes with its own controllers, views, so essentially it's an MVC.
-My application had a separate frontend framework (React) that was suppose to make API calls to Rails server to authenticaticate a user.
-So, in my case I had to figure out a way to make devise accept and respond with JSON. It took me a while and I learned a lot along the way, so I wrote an article to share this knowledge.</p>
+[Devise](https://github.com/heartcombo/devise) is a powerful and customizable authentication library used for Rails applications. It comes with controllers, views and there are a few commands you need to run to make the authorization work.
 
-I explain the whole configuration and thought process step by step in the article that can be found here. 
+However, my application had a different frontend framework (React) that handled the views and was supposed to make API calls to the Rails server to authenticate a user.
+
+It took some research till finding a way to make the devise work with my configuration or, in other words, to make it accept and respond with JSON.
+
+I learned a lot along the way, and I summarised my thoughts in an article.
+While researching, I got a suggestion to read an [article](https://andrewray.me/blog) that solved 99% of the devise configuration problem. There were comments under the article asking the author for a demo application. Unfortunately, it seems like author removed the article as I haven't find THE article which helped me :(
+
+So, I decided to make a demo application myself, hoping that it would help people who are looking for a solution to the same configuration problems.
+
+If you need a detailed explanation of the whole process, you can check out this article.
 
 This application is for devise JSON API authentication demo purpose only. It has only a User model and devise gem installed and set up to work with JSON.
 
