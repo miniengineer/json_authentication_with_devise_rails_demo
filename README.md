@@ -24,7 +24,7 @@ However, my application had a different frontend framework (React) that handled 
 It took some research till finding a way to make the devise work with my configuration or, in other words, to make it accept and respond with JSON.
 
 I learned a lot along the way, and I summarised my thoughts in an [article](https://miniland.hashnode.dev/json-api-authentication-for-rails-application-with-devise).
-While researching, I got a suggestion to read an article from a [blog](https://andrewray.me/blog) that solved 99% of the devise configuration problem. There were comments under the article asking the author for a demo application. Unfortunately, it seems like author removed the article as I haven't find THE article which helped me :(
+While researching, I got a suggestion to read an article from a [blog](https://andrewray.me/blog) that solved 99% of the devise configuration problem. There were comments under the article asking the author for a demo application. Unfortunately, it seems like author removed the article as I haven't found THE article which helped me :(
 
 So, I decided to make a demo application myself, hoping that it would help people who are looking for a solution to the same configuration problems.
 
